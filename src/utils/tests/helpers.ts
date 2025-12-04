@@ -23,6 +23,11 @@ export const testManagedImages: ManagedImage[] = [
     command: '',
   },
   {
+    implementation: 'bitcoind-knots',
+    version: defaultRepoState.images['bitcoind-knots'].latest,
+    command: '',
+  },
+  {
     implementation: 'tapd',
     version: defaultRepoState.images.tapd.latest,
     command: '',
